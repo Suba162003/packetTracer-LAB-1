@@ -1,0 +1,61 @@
+# Lab 1: Introduction to Packet Tracer, Peer-to-Peer Communication, Study of Cables and Its Color Codes
+
+## Objective
+- Introduce Packet Tracer and its basic features.
+- Understand peer-to-peer communication.
+- Study different types of network cables and their color codes.
+
+## Materials Required
+- Packet Tracer software
+- Network cables (Ethernet, crossover, etc.)
+
+## Theory
+### Overview of Packet Tracer
+Packet Tracer is a network simulation tool that allows users to design, configure, and troubleshoot networks.
+
+### Basics of Peer-to-Peer Communication
+A peer-to-peer (P2P) network allows devices to communicate directly without relying on a central server.
+
+### Color Coding Standards for Network Cables
+Network cables follow specific standards (T568A and T568B) that define the order of the colored wires.
+
+## Procedure
+1. **Open Packet Tracer**: Familiarize with the interface.
+2. **Create a Simple Network**:
+   - Add two computers and one switch.
+   - Connect the computers using Ethernet cables.
+3. **Configure IP Addresses**:
+   - Assign IP addresses (e.g., Computer A: 192.168.1.1, Computer B: 192.168.1.2).
+4. **Test the Connection**:
+   - Use the `ping` command to test connectivity.
+5. **Study Network Cables**: 
+   - Document different cable types and their color codes.
+
+## Observations
+- **IP Configuration Steps**:
+  - Computer A: 192.168.1.1
+  - Computer B: 192.168.1.2
+- **Ping Results**:
+  - Successful connection from Computer A to Computer B.
+- **Color Codes for Cables**:
+  - **T568A**:
+    - Pin 1: White/Green
+    - Pin 2: Green
+    - Pin 3: White/Orange
+    - Pin 4: Blue
+    - Pin 5: White/Blue
+    - Pin 6: Orange
+    - Pin 7: White/Brown
+    - Pin 8: Brown
+  - **T568B**:
+    - Pin 1: White/Orange
+    - Pin 2: Orange
+    - Pin 3: White/Green
+    - Pin 4: Blue
+    - Pin 5: White/Blue
+    - Pin 6: Green
+    - Pin 7: White/Brown
+    - Pin 8: Brown
+
+## Conclusion
+Understanding basic networking concepts is crucial for designing and troubleshooting networks. Packet Tracer is an excellent tool for learning these concepts in a practical environment.
