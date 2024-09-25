@@ -1,0 +1,19 @@
+# Example Configuration Script for Packet Tracer
+
+# Configuration for Computer A
+enable
+configure terminal
+interface FastEthernet0/0
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+exit
+exit
+
+# Configuration for Computer B
+enable
+configure terminal
+interface FastEthernet0/0
+ip address 192.168.1.2 255.255.255.0
+no shutdown
+exit
+exit
